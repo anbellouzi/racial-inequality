@@ -1680,7 +1680,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-  background-color: #c9315c;
+  background-color: #f96332;
   color: #FFFFFF;
 }
 
@@ -1728,13 +1728,13 @@ fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #c9315c;
-  border-color:#91c99e;
+  background-color: #f96332;
+  border-color: #f96332;
 }
 
 .btn-primary.btn-simple {
-  background-color: #c9315c;
-  border-color:#91c99e;
+  color: #f96332;
+  border-color: #f96332;
 }
 
 .btn-primary.btn-simple:hover,
@@ -2223,7 +2223,7 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .btn-neutral.btn-primary {
-  color: #c9315c;
+  color: #f96332;
 }
 
 .btn-neutral.btn-primary:hover,
@@ -2342,8 +2342,8 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .btn-outline-primary {
-  color: #c9315c;
-  border-color: #c9315c;
+  color: #f96332;
+  border-color: #f96332;
 }
 
 .btn-outline-primary:hover,
@@ -4689,7 +4689,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .bg-success {
-  background-color: #5dca31 !important;
+  background-color: #18ce0f !important;
 }
 
 .bg-danger {
@@ -6077,7 +6077,7 @@ img {
   /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(93, 202, 49, 0.2), rgba(201, 196, 49, 0.6));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
   /* Standard syntax */
 }
 
