@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="page-header clear-filter" filter-color="orange">
+    {% load static %}
+      <div class="page-header-image" data-parallax="true" style="background-image:url('{% static './img/faculty.png' %}');https://media.npr.org/assets/img/2014/12/27/usradiumgirls-argonne1ca1922-23-150dpi1_wide-a1480a7e2bdc059f1a9a919ea333481f009956cc.jpeg?s=1400">
+      </div>
+      <div class="container">
+        <div class="content-center brand">
+          <img class="n-logo" src="./assets/img/now-logo.png" alt="">
+          <h1 class="title h1">Story of Radium Girls</h1>
+          <h3>The Radium Girls were female factory workers who contracted radiation poisoning from painting watch dials with self-luminous paint.</h3>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-5 mb-5">
+        <div class="row ">
+        <div class="col-lg-6 col-md-12">
+            <h3 class="title">Women in WWI</h3>
+            <h5 class="description">
+During WWI when American men were off to war, American women went to the factory to replace the displaced men. Some women found employment as dailpainters enticing. The work entails that the women paint radioluminescent numerals on watch faces. The job was attractive because they could be inside, they could wear long skirts and shirtwaists, they did delicate work, and the pay was relatively good. The wristwatch industry was booming because soldiers on the front needed them to tell time and to be on time to fight, eat, sleep, or stay awake. 
+            </h5>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="icons-container">
+            <img src="https://www.worldwar1centennial.org/images/News/Women_in_Service/Women_in_WWI.png" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <div class="row ">
+            <div class="col-lg-6 col-md-12">
+                <div class="icons-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Undark_%28Radium_Girls%29_advertisement%2C_1921%2C_retouched.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                        <h3 class="title">Discovery of Luminous Paint</h3>
+
+                <h5 class="description">
+To make the watch more enticing and functional the companies came up with a formula that made the numbers on the watch face glow in the dark by adding in a minuscule amount of radium to their paint mixture.
+                </h5>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5 mb-5">
+        <div class="row ">
+        <div class="col-lg-6 col-md-12">
+            <h3 class="title">Public Radium Perception</h3>
+            <h5 class="description">
+During this time in history radium was considered a cure-all, and so not only did no one mind working with radium some women dailpainters even spread it on their faces with the belief that it will prevent aging and promote beauty. 
+            </h5>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="icons-container">
+            {% load static %}
+            <img src="{% static './img/Charlotte.png' %}" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5 mb-5">
+        <div class="row ">
+            <div class="col-lg-6 col-md-12">
+                <div class="icons-container">
+                {% load static %}
+                <img src="{% static './img/chin.png' %}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                        <h3 class="title">Strange Diseases</h3>
+
+                <h5 class="description">
+In the 1920s and 1930s some dailpainters and former dailpainters began to suffer from a variety of illnesses, sometimes leading to deaths. The most prominent illness was infection in the jaw, it was called jaw rot or jaw necrosis. At first everyone thought it was caused by phosphorus and they labeled the illnesses as ‘phosy jaw’, this happened in fireworks factories because they were working with phosphorus.                 </h5>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row justify-content-md-center mb-5">
+            <div class="col-md-12 col-lg-8">
+                <h2 class="title">Radium Instead of Phosphorus</h2>
+                <h5 class="description">Eventually, a chemical analysis was done on the paint used by the dailpainters had no phorphorous in it, and the author concluded it was the radium that was causing the jaw rotting infections in the dailpainters. The labor department took no action and dailworkers were starting to die.  Radium companies continued to deny that the deaths of the dailpainters were their fault while implementing strategies to contain the threat that radium poisoning posed to tie businesses.</h5>
+                              <a href="{% url 'radium' %}" class="btn btn-outline-primary btn-round btn-lg">More on Radium</a>
+
+                {% load static %}
+                <div class="row justify-content-center">
+                    <img src="{% static './img/1925.png' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="container mt-5 mb-5">
+        <div class="row ">
+        <div class="col-lg-6 col-md-12">
+            <h3 class="title">Women vs U.S. Radium Company</h3>
+            <h5 class="description">
+It wasn’t until more cases of deaths from radium made it to the newspaper and the women sought help from the Consumers’ League that radium companies started to cave and settled with suits brought to them. Consumers’ League  was lead by Alice Hamilton, she was a product of Jane Adam’s Hull-House. Consumers’ League was an organization working for industrial disease reform in the 1920s. They helped the women find expert witnesses to testify on their behalf because most scientists were on the company’s side.             </h5>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="icons-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/National_Consumers_League_Label_-_1899.jpg" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row justify-content-md-center mb-5">
+            <div class="col-md-12 col-lg-8">
+                <h2 class="title">Victory!</h2>
+                <h5 class="description">The five dialpainters whose suits garnered the most publicity cost U.S. Radium over $ 15,000 apiece. For the first time in American history, an employer was required to pay for its workers’ medical treatment as a result of negligence.            </h5>
+                
+                {% load static %}
+                <div class="row justify-content-center">
+                    <img src="{% static './img/SuitEnds.png' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'main/partials/footer.html' %}
+  
+  {% endblock %}

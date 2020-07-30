@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+     <div class="page-header clear-filter" filter-color="orange">
+      <div class="page-header-image" data-parallax="true" style="background-image:url('https://media.npr.org/assets/img/2014/12/27/usradiumgirls-argonne1ca1922-23-150dpi1_wide-a1480a7e2bdc059f1a9a919ea333481f009956cc.jpeg?s=1400');">
+      </div>
+      <div class="container">
+        <div class="content-center brand">
+          <img class="n-logo" src="./assets/img/now-logo.png" alt="">
+          <h1 class="h1-seo">About Radium Girls</h1>
+          <a href="{% url 'story' %}" class="btn btn-outline-primary btn-round btn-lg text-white">Read their Story</a>
+        </div>
+      </div>
+    </div>
+
+
+        <div class="container mt-5 mb-5">
+            <div class="row justify-content-center">
+                {% load static %}
+                    <img class="d-block" src="{% static './img/img1.png' %}" alt="First slide">
+            </div>
+        </div>
+
+
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-md-12 col-lg-8">
+              <h2 class="title">Katherine Schaub</h2>
+              <h5 class="description">Katherine Schaub was one of the women who alerted authorities about radium poisoning,  she told them that they were directed to place their brushes on their tongues when they were painting. After digesting the poison,  her teeth were starting to fall off in the fall of 1923. She removed her teeth to ease the pain but unfortunately developed horrific diseases soon afterwards.   Findings found that she had radium in her bone plates which developed into cancer, anemia, necrosis and joint deterioration. The consumer Leaguege in New Jersey investigated this and soon made the disease as a recognized occupational disease in 1926. However because of the 2 year statute of limitations,  this was not going to be of any help towards the women who have already been poisoned. Which led to a bill being passed in 1941  that made all industrial diseases compensable and extended the time during which workers could discover illness. Schaub succumbed to radium poisoning in 1933 at the age of 31.</h5>
+                <embed src="{% static './img/schabudDead.pdf' %}" width="500" height="375" type="application/pdf">
+            </div>
+          </div>
+        </div>
+
+        <div class="container mt-5 mb-5">
+          <div class="row justify-content-md-center">
+            <div class="col-md-12 col-lg-8">
+              <h2 class="title">Albina Larice</h2>
+              <h5 class="description"> Albina, alongside her sister Quinta, Grace Fryer, Katherine Schaub and Edna Hussman, was one of the five New Jersey women who famously filed suit against the United States Radium Corporation (USRC). At the time of the lawsuit, she was considered to be the worst-stricken by her poisoning. She was a very short woman – only four foot eight – born on 15 August 1895. Her nickname was Bena.</h5>
+            {% load static %}
+                <embed src="{% static './img/albinaDeath.pdf' %}" width="500" height="375" type="application/pdf">
+                <!-- <img src="{% static './img/schabudDead.pdf' %}" alt=""> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container mt-5">
+          <div class="row justify-content-md-center">
+            <div class="col-md-12 col-lg-8">
+              <h2 class="title">Edna Hussman</h2>
+              <h5 class="description">Born in May of 1901, Edna Hussman was a close colleague of Katherine Schaub who both met after WW1. After leaving the United States Radium  Corporation, Edna continued to dial-paint in the late 1925 when Radium poisoning already existed. Her known hobbies were  music and looking at flowers.</h5>
+              </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-5">
+
+            <!-- <a href="{% url 'story' %}" class="btn btn-outline-primary btn-round btn-lg">Read Story</a> -->
+          </div>
+        </div>
+
+
+        <div class="container mt-5">
+          <div class="row justify-content-md-center">
+            <div class="col-md-12 col-lg-8">
+              <h2 class="title">Grace Fryer</h2>
+              <h5 class="description">Grace was born on March 14, 1899 in Orange New Jersey. She was very political and was actually fired early on when she was a dial painter for supposedly speaking too much during work hours. Grace’s father was a well known union representative and although she didn’t follow the same path she was actually a very good public speaker on voting. Which made her a driving force during the file suit against the United States Radium Corporation with the Five Jersey Girls.</h5>
+              </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-5">
+            <!-- <a href="{% url 'story' %}" class="btn btn-outline-primary btn-round btn-lg">Read Story</a> -->
+          </div>
+        </div>
+
+
+        <div class="container mb-5">
+          <div class="row justify-content-md-center">
+            <div class="col-md-12 col-lg-8">
+              <h2 class="title">Quinta Maggia McDonald</h2>
+              <h5 class="description">Quinta McDonald went by the name May, worked as a stenciller for a music roll company before dial-painting. Because of the “good” pay she switched as a factory worker instead and actually felt she was lucky to even be there, which many women during this time felt as well. Unfortunately, she was a victim of domestic violence back home and when  she filed for a divorce the judge postponed it as an “opportunity” for the husband to  rethink his actions. In the end Mcdonald’s sister-in-law  cared for her children during these hard times.</h5>
+              </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-5">
+        {% load static %}
+                    <img class="d-block" src="{% static './img/FirstDeathQuinta.png' %}" alt="First slide">
+            <!-- <a href="{% url 'story' %}" class="btn btn-outline-primary btn-round btn-lg">Read Story</a> -->
+          </div>
+        </div>
+
+        
+
+
+    {% include 'main/partials/footer.html' %}
+
+  </div>
+
+  
+  {% endblock %}

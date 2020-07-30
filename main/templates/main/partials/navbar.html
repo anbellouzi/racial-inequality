@@ -11,9 +11,10 @@
           <span class="navbar-toggler-bar bottom-bar"></span>
         </button>
       </div>
-      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
+      {% load static %}
+      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="{% static './assets/img/blurred-image-1.jpg' %}">
         <ul class="navbar-nav">
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown">
               <i class="now-ui-icons design_app"></i>
               <p>Components</p>
@@ -26,25 +27,32 @@
                 <i class="now-ui-icons design_bullet-list-67"></i> Documentation
               </a>
             </div>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
-              <i class="fab fa-twitter"></i>
-              <p class="d-lg-none d-xl-none">Twitter</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
-              <i class="fab fa-facebook-square"></i>
-              <p class="d-lg-none d-xl-none">Facebook</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
-              <i class="fab fa-instagram"></i>
-              <p class="d-lg-none d-xl-none">Instagram</p>
-            </a>
           </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'home' %}">
+              <p class="">Home</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'about' %}">
+              <p class="">About</p>
+            </a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="{% url 'story' %}">
+              <p class="">Story</p>
+            </a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="{% url 'radium' %}">
+              <p class="">Radium</p>
+            </a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="{% url 'citation' %}">
+              <p class="">Work Cited</p>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

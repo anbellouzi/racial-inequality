@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+
+  <!-- End Navbar -->
+  <div class="wrapper">
+    <div class="page-header clear-filter" filter-color="orange">
+    {% load static %}
+      <div class="page-header-image" data-parallax="true" style="background-image:url('{% static './img/watches.jpg' %}');">
+      </div>
+      <div class="container">
+        <div class="content-center brand">
+          <img class="n-logo" src="./assets/img/now-logo.png" alt="">
+          <h1 class="h1-seo">Radium</h1>
+          <h3>Radium is a chemical element with the symbol Ra and atomic number 88. It is the sixth element in group 2 of the periodic table, also known as the alkaline earth metals.</h3>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Add content here -->
+    <div class="container mt-5 mb-5">
+        <div class="row ">
+        <div class="col-lg-6 col-md-12">
+            <h3 class="title">What is Radium</h3>
+            <h5 class="description">
+                In nature Radium is found inside of uranium and is then extracted using sulfuric acid. In its natural state it is a silvery white color but once exposed to oxygen it turns into a charcoal darkish color. Radium is a highly radioactive material and can cause many issues to the human body like bloody urine, back/side pain, swelling all around the body and many other major health issues. Radium, in the form of radium chloride, was discovered by Marie Skłodowska and Pierre Curie in 1898 in Jáchymov.
+            </h5>
+            <a href="https://www.mentalfloss.com/article/12732/9-ways-people-used-radium-we-understood-risks" target="_blank" class="btn btn-outline-primary btn-round btn-lg" >Read more</a>
+
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="icons-container">
+            <img src="{% static './img/r.jpeg' %}" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <div class="row ">
+            <div class="col-lg-6 col-md-12">
+                <div class="icons-container"> 
+                <img src="{% static './img/watches.jpg' %}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <h3 class="title">What was Radium used for?</h3>
+                <h5 class="description">
+                    Radium was once used in many products, including wristwatches, toothpaste, self-luminous paints for watches, and aircraft instrument dials. Even thought to have curative properties until its intense radioactivity was found to cause adverse health effects. Currently, other than its use in nuclear medicine, radium has no commercial applications because of its health dangers. 
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add content here -->
+    <div class="container mt-5 mb-5">
+        <div class="row ">
+        <div class="col-lg-6 col-md-12">
+            <h3 class="title">Joachimsthal Radium Spa Hotel</h3>
+            <h5 class="description">
+                In light of the supposed curative properties of radioactivity, a spa was opened up in Joachimsthal, the place at which Madame Curie gathered some of her original samples of radium from spring waters. Radon inhalation rooms were set up, where air tubes carried the gas up from a processing tank in the basement; the visitor would then use it through an inhalation apparatus. Baths were set up which were also irradiated, and irradiated air was also filtered through a trumpet-like pipe for inhalation.
+            </h5>
+            <a href="{% url 'story' %}" class="btn btn-primary btn-round btn-lg" >Radium Girls Story</a>
+
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="icons-container">{% load static %}
+            <img src="{% static './img/hotel.jpg' %}" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+
+    {% include 'main/partials/footer.html' %}
+
+  </div>
+
+  
+  {% endblock %}
