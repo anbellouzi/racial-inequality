@@ -10,7 +10,7 @@
         <div class="content-center brand">
           <img class="n-logo" src="./assets/img/now-logo.png" alt="">
           <h1 class="title h1">Story of Radium Girls</h1>
-          <h3>The Radium Girls were female factory workers who contracted radiation poisoning from painting watch dials with self-luminous paint.</h3>
+          <!-- <h3>The Radium Girls were female factory workers who contracted radiation poisoning from painting watch dials with self-luminous paint.</h3> -->
         </div>
       </div>
     </div>
@@ -45,6 +45,8 @@ During WWI when American men were off to war, American women went to the factory
                 <h5 class="description">
 To make the watch more enticing and functional the companies came up with a formula that made the numbers on the watch face glow in the dark by adding in a minuscule amount of radium to their paint mixture.
                 </h5>
+                <a href="{% url 'radium' %}" class="btn btn-outline-primary btn-round btn-lg">More on Radium</a>
+
             </div>
         </div>
     </div>
@@ -53,10 +55,12 @@ To make the watch more enticing and functional the companies came up with a form
     <div class="container mt-5 mb-5">
         <div class="row ">
         <div class="col-lg-6 col-md-12">
-            <h3 class="title">Public Radium Perception</h3>
+            <h3 class="title">Lip...Drip...Paint</h3>
             <h5 class="description">
-During this time in history radium was considered a cure-all, and so not only did no one mind working with radium some women dailpainters even spread it on their faces with the belief that it will prevent aging and promote beauty. 
+                In order to get the tip of the paint brushes as thin as possible to paint the sharpest numbers on the watches, they were instructed to put the brush in their mouths. 
+During this time in history radium was considered a cure-all and no one mind working with radium.
             </h5>
+
         </div>
         <div class="col-lg-6 col-md-12">
             <div class="icons-container">
@@ -77,10 +81,10 @@ During this time in history radium was considered a cure-all, and so not only di
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
-                        <h3 class="title">Strange Diseases</h3>
+                        <h3 class="title">Emergence of Strange Diseases</h3>
 
                 <h5 class="description">
-In the 1920s and 1930s some dailpainters and former dailpainters began to suffer from a variety of illnesses, sometimes leading to deaths. The most prominent illness was infection in the jaw, it was called jaw rot or jaw necrosis. At first everyone thought it was caused by phosphorus and they labeled the illnesses as ‘phosy jaw’, this happened in fireworks factories because they were working with phosphorus.                 </h5>
+In the 1920s and 1930s some dailpainters and former dailpainters began to suffer from a variety of illnesses, sometimes leading to deaths. The most prominent illness was infection in the jaw, it was called jaw rot or jaw necrosis. At first everyone thought it was caused by phosphorus and they labeled the illness as ‘phosy jaw’, which frequently happened in fireworks factories because they were working with phosphorus.                 </h5>
             </div>
         </div>
     </div>
@@ -90,8 +94,7 @@ In the 1920s and 1930s some dailpainters and former dailpainters began to suffer
         <div class="row justify-content-md-center mb-5">
             <div class="col-md-12 col-lg-8">
                 <h2 class="title">Radium Instead of Phosphorus</h2>
-                <h5 class="description">Eventually, a chemical analysis was done on the paint used by the dailpainters had no phorphorous in it, and the author concluded it was the radium that was causing the jaw rotting infections in the dailpainters. The labor department took no action and dailworkers were starting to die.  Radium companies continued to deny that the deaths of the dailpainters were their fault while implementing strategies to contain the threat that radium poisoning posed to tie businesses.</h5>
-                              <a href="{% url 'radium' %}" class="btn btn-outline-primary btn-round btn-lg">More on Radium</a>
+                <h5 class="description">Eventually, a chemical analysis was done on the paint used by the dailpainters had no phorphorous in it, and the author concluded it was the radium that was causing the jaw rotting infections in the dailpainters. The labor department took no action and dailworkers were starting to die.  Radium companies continued to deny that the deaths of the dailpainters were their fault while implementing strategies to contain the threat that radium poisoning posed to their businesses.</h5>
 
                 {% load static %}
                 <div class="row justify-content-center">
@@ -106,11 +109,14 @@ In the 1920s and 1930s some dailpainters and former dailpainters began to suffer
         <div class="col-lg-6 col-md-12">
             <h3 class="title">Women vs U.S. Radium Company</h3>
             <h5 class="description">
-It wasn’t until more cases of deaths from radium made it to the newspaper and the women sought help from the Consumers’ League that radium companies started to cave and settled with suits brought to them. Consumers’ League  was lead by Alice Hamilton, she was a product of Jane Adam’s Hull-House. Consumers’ League was an organization working for industrial disease reform in the 1920s. They helped the women find expert witnesses to testify on their behalf because most scientists were on the company’s side.             </h5>
+                On May 18, 1927 five women banded together to file a lawsuit against the  US Radium Corporation and they were later dubbed as the Radium Girls. They were Grace Fryer, Edna Hussman, Katherine Schaub, and sisters Quinta McDonald and Albina Larice. Met with lots of resistance because scientists refused to testify for their case.
+It wasn’t until more cases of deaths from radium made it to the newspaper and the women sought help from the Consumers’ League that radium companies started to cave and settled with suits brought to them. Consumers’ League was an organization working for industrial disease reform in the 1920s. It was lead by Alice Hamilton, she was a product of Jane Adam’s Hull-House. They helped the women find expert witnesses to testify on their behalf because most scientists were on the company’s side.             </h5>
         </div>
         <div class="col-lg-6 col-md-12">
             <div class="icons-container">
+            <img src="{% static './img/img1.png' %}" alt="">
             <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/National_Consumers_League_Label_-_1899.jpg" alt="">
+
             </div>
         </div>
         </div>
@@ -121,7 +127,7 @@ It wasn’t until more cases of deaths from radium made it to the newspaper and 
         <div class="row justify-content-md-center mb-5">
             <div class="col-md-12 col-lg-8">
                 <h2 class="title">Victory!</h2>
-                <h5 class="description">The five dialpainters whose suits garnered the most publicity cost U.S. Radium over $ 15,000 apiece. For the first time in American history, an employer was required to pay for its workers’ medical treatment as a result of negligence.            </h5>
+                <h5 class="description">On June 5, 1928, US Radium agreed to settle with the women's suit. The five dialpainters suit cost U.S. Radium over $ 15,000 apiece. For the first time in American history, an employer was required to pay for its workers’ medical treatment as a result of negligence.            </h5>
                 
                 {% load static %}
                 <div class="row justify-content-center">
