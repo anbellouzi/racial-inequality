@@ -25,7 +25,7 @@ SECRET_KEY = '7g%q(1nax*b7n)q^h=vnor5i_enfxz)4mj0*350o!^_h&$-yex'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'womenhistory.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'racial-inequality.herokuapp.com']
 
 
 
