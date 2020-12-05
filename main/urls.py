@@ -20,8 +20,8 @@ from . import views
 
 urlpatterns = [
     path('', views.HomePage.as_view(), name='home'),
-    path('about/', views.AboutPage.as_view(), name='about'),
-    path('story/', views.StoryPage.as_view(), name='story'),
-    path('radium/', views.RadiumPage.as_view(), name='radium'),
+    path('1992-twilight/', views.AboutPage.as_view(), name='about'),
+    path('13th-alec/', views.StoryPage.as_view(), name='story'),
+    path('compare-1992-twilight-vs-13th/', views.RadiumPage.as_view(), name='radium'),
     path('citation/', views.CitationPage.as_view(), name='citation'),
 ]
